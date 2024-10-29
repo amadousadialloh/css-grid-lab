@@ -59,3 +59,16 @@ button {
   align-items: center;
   gap: 30px;
 }
+
+@media (max-width: 852px) {
+  #content-div {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 795px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+  }
+}
